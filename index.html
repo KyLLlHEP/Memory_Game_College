@@ -3,84 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
     <title>Memory game</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <section class="memory-game">
-      <div class="memory-card">
-        <img class="front-face" src="./img/Image-Cherry.jpg" alt="Cherry" />
-        <img class="back-face" src="./img/Back-face.jpg" alt="Card back face" />
-      </div>
-      <div class="memory-card">
-        <img class="front-face" src="./img/Image-Dog.jpg" alt="Dog" />
-        <img class="back-face" src="./img/Back-face.jpg" alt="Card back face" />
-      </div>
-      <div class="memory-card">
-        <img class="front-face" src="./img/Image-Dolphin.jpg" alt="Dolphin" />
-        <img class="back-face" src="./img/Back-face.jpg" alt="Card back face" />
-      </div>
-      <div class="memory-card">
-        <img class="front-face" src="./img/Image-Fire.jpg" alt="Fire" />
-        <img class="back-face" src="./img/Back-face.jpg" alt="Card back face" />
-      </div>
-      <div class="memory-card">
-        <img class="front-face" src="./img/Image-Globe.jpg" alt="Globe" />
-        <img class="back-face" src="./img/Back-face.jpg" alt="Card back face" />
-      </div>
-      <div class="memory-card">
-        <img class="front-face" src="./img/Image-Lion.jpg" alt="Lion" />
-        <img class="back-face" src="./img/Back-face.jpg" alt="Card back face" />
-      </div>
-      <div class="memory-card">
-        <img class="front-face" src="./img/Image-Lock.jpg" alt="Lock" />
-        <img class="back-face" src="./img/Back-face.jpg" alt="Card back face" />
-      </div>
-      <div class="memory-card">
-        <img class="front-face" src="./img/Image-Party.jpg" alt="Party" />
-        <img class="back-face" src="./img/Back-face.jpg" alt="Card back face" />
-      </div>
-      <div class="memory-card">
-        <img class="front-face" src="./img/Image-Piano.jpg" alt="Piano" />
-        <img
-          class="back-face"
-          src="././img/Back-face.jpg"
-          alt="Card back face"
-        />
-      </div>
-      <div class="memory-card">
-        <img class="front-face" src="./img/Image-Pizza.jpg" alt="Pizza" />
-        <img class="back-face" src="./img/Back-face.jpg" alt="Card back face" />
-      </div>
-      <div class="memory-card">
-        <img class="front-face" src="./img/Image-Present.jpg" alt="Present" />
-        <img class="back-face" src="./img/Back-face.jpg" alt="Card back face" />
-      </div>
-      <div class="memory-card">
-        <img class="front-face" src="./img/Image-Silly.jpg" alt="Silly smile" />
-        <img class="back-face" src="./img/Back-face.jpg" alt="Card back face" />
-      </div>
-      <div class="memory-card">
-        <img
-          class="front-face"
-          src="./img/Image-Sunflower.jpg"
-          alt="Sunflower"
-        />
-        <img class="back-face" src="./img/Back-face.jpg" alt="Card back face" />
-      </div>
-      <div class="memory-card">
-        <img class="front-face" src="./img/Image-Target.jpg" alt="Target" />
-        <img class="back-face" src="./img/Back-face.jpg" alt="Card back face" />
-      </div>
-      <div class="memory-card">
-        <img class="front-face" src="./img/Image-Top hat.jpg" alt="Top hat" />
-        <img class="back-face" src="./img/Back-face.jpg" alt="Card back face" />
-      </div>
-      <div class="memory-card">
-        <img class="front-face" src="./img/Image-Umbrella.jpg" alt="Umbrella" />
-        <img class="back-face" src="./img/Back-face.jpg" alt="Card back face" />
-      </div>
-    </section>
-    <script src="./scripts.js"></script>
+    <div class="game-content">
+      <header class="header">
+        <div class="container">
+          <h1 class="header__title">Memory Game</h1>
+        </div>
+      </header>
+      <main>
+        <section class="game-section">
+          <div class="container game-section__container"></div>
+        </section>
+      </main>
+    </div>
+    <div class="confetti"></div>
+    <script type="module" src="./js/index.js"></script>
   </body>
 </html>
